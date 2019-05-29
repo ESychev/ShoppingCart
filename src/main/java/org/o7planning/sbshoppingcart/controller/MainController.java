@@ -82,10 +82,10 @@ public class MainController {
 		final int maxResult = 5;
 		final int maxNavigationPage = 10;
 
-		PaginationResult<ProductInfo> result = productDAO.queryProducts(page, //
-				maxResult, maxNavigationPage, likeName);
-
-		model.addAttribute("paginationProducts", result);
+//		PaginationResult<ProductInfo> result = productDAO.queryProducts(page, //
+//				maxResult, maxNavigationPage, likeName);
+//
+//		model.addAttribute("paginationProducts", result);
 		return "productList";
 	}
 

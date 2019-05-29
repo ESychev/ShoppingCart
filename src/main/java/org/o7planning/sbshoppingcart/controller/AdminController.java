@@ -83,10 +83,10 @@ public class AdminController {
 		final int MAX_RESULT = 5;
 		final int MAX_NAVIGATION_PAGE = 10;
 
-		PaginationResult<OrderInfo> paginationResult //
-				= orderDAO.listOrderInfo(page, MAX_RESULT, MAX_NAVIGATION_PAGE);
-
-		model.addAttribute("paginationResult", paginationResult);
+//		PaginationResult<OrderInfo> paginationResult //
+//				= orderDAO.listOrderInfo(page, MAX_RESULT, MAX_NAVIGATION_PAGE);
+//
+//		model.addAttribute("paginationResult", paginationResult);
 		return "orderList";
 	}
 
